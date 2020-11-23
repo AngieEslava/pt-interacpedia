@@ -1,20 +1,25 @@
 @extends('layouts.app')
+@section('content')
 
-<form method="post" action="{{url('/empresas')}}" enctype="multipart/form-data">
-{{ csrf_field() }}
+<div class="container">
 
-@include('empresas.form',['Modo'=>'crear'])
-
-
-
-</form>
-
-
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+<div class="card" >
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title make up the bulk of the card content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Formulario para Registrar Empresas</h5>
+    
+    <form method="post" action="{{url('/empresas')}}" enctype="multipart/form-data">
+    {{ csrf_field() }}
+
+    @include('empresas.form',['Modo'=>'crear'])
+
+    </form>
+    
   </div>
 </div>
+
+</div>
+
+
+@endsection
+
+
