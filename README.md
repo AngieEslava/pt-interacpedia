@@ -7,6 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Comenzar Admin Panel
+Para comenzar a usar el Admin Panel lo primero que debes hacer es clonar este repositorio en tu máquina local con ``git clone https://github.com/AngieEslava/pt-interacpedia.git`` 
+
+Una vez hecho esto asegurandote de que tengas xampp y todos los requerimientos de software para laravel puedes ejecutar desde la consola ``php artisan serve`` y listo!
+
+Si no tienes xampp lo puedes descargar [aqui](https://www.apachefriends.org/download.html)
+
+También puedes descargar composer desde [aqui](https://getcomposer.org/)
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
